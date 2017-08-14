@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1502735296 source:c:\users\kcscs\desktop\projects\c++\experiment\binarysearch2\main.cpp
+	<iostream>
+	<cstdlib>
+	<time.h>
+	<algorithm>
+
