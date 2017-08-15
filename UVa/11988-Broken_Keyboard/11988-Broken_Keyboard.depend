@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1502814501 source:c:\users\kcscs\desktop\projects\c++\uva\11988-broken_keyboard\main.cpp
+	<iostream>
+	<list>
+
