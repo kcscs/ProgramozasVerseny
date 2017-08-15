@@ -22,7 +22,7 @@ int main()
             else if(bemenet[i] == ']')
                 it = kimenet.end();     /// end() az utolso elem utani helyre mutato iteratorral ter vissza
             else{
-                it = kimenet.insert(it,bemenet[i]); /// Beillesztes it ele, instert(...) visszateresi erteke a beillesztett elemre
+                it = kimenet.insert(it,bemenet[i]); /// Beillesztes it ele, insert(...) visszateresi erteke a beillesztett elemre
                                                     /// mutato iterator.
                 it++;                               /// Atlepi az eppen beillesztett elemet, hogy kesobb utana illeszthessen
             }
