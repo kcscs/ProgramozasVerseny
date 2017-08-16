@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1501658270 source:c:\users\kcscs\desktop\projects\c++\experiment\backtracking-8qeens\main.cpp
+	<iostream>
+	<cstdlib>
+	<vector>
+	<cstdlib>
+
