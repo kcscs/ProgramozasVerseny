@@ -26,7 +26,7 @@ void backTrack(int n_placed){
     int r = n_placed;
         /*if(occ_row[r])
             continue;*/
-        for(int c = 0; c < N; c++ /* HA! */){
+        for(int c = 0; c < N; c++){
             if(occ_col[c])
                 continue;
             if(occ_diag_NW_SE[r+c])
@@ -36,7 +36,7 @@ void backTrack(int n_placed){
                 continue;
 
             ///Place queen
-            occ_row[r] = true;
+            //occ_row[r] = true;
             occ_col[c] = true;
             occ_diag_NW_SE[r+c] = true;
             occ_diag_SW_NE[swne] = true;
@@ -44,7 +44,7 @@ void backTrack(int n_placed){
             ///Explore
             backTrack(n_placed+1);
             ///Backtrack
-            occ_row[r] = false;
+            //occ_row[r] = false;
             occ_col[c] = false;
             occ_diag_NW_SE[r+c] = false;
             occ_diag_SW_NE[swne] = false;
