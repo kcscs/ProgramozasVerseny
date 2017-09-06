@@ -1,7 +1,5 @@
 #include <iostream>
 #include <limits.h>
-#include <vector>
-#define IMAX INT_MAX-100000
 using namespace std;
 
 int NtermA, NtermB, ossz;
