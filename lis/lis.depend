@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1505213392 source:e:\suli\prog\lis\main.cpp
+	<iostream>
+	<time.h>
+	<cstdlib>
+	<algorithm>
+	<vector>
+
