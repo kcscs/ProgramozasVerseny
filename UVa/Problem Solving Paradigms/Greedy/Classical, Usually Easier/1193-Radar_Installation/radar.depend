@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1507382218 source:c:\users\kcscs\documents\c++\uva\problem solving paradigms\greedy\classical, usually easier\radar\main.cpp
+	<iostream>
+	<vector>
+	<cmath>
+	<algorithm>
+
+1507382254 source:c:\users\kcscs\documents\c++\uva\problem solving paradigms\greedy\classical, usually easier\1193-radar_installation\main.cpp
+	<iostream>
+	<vector>
+	<cmath>
+	<algorithm>
+
